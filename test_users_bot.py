@@ -2,7 +2,7 @@ import json
 from secrets import token_urlsafe
 from faker import Faker
 from telebot import TeleBot, types
-TOKEN = '6151110180:AAHSM1qfv27SS0-otMY1Ans68gOALXJH6kA'
+TOKEN = '5938184226:AAEDr030Fq7b2cA0h9u_8pOBaJDHdAMnM_Q'
 bot = TeleBot(TOKEN, parse_mode='html')
 faker = Faker('ru_RU') 
 main_menu_reply_markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
